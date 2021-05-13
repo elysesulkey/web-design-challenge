@@ -62,23 +62,34 @@
 <!-- End of Navagation Bar-->  
 
 
-  <!-- Start of container -->
-  <div class="container">
-    <section class="row">
-      <div class="col-lg-8 col-md-8 col-sm-6 col-xm-12">
-        <article class="description-content">
-          <h1 class="description-header">Summary: Latitude vs. X</h1>
-          <hr class="description-hr" />
-          <img src="Resources/Assets/Visualizations/temp.html" alt="Latitude vs. Max Temperature Analysis Graph" id="description-image" />
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500
-            cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-            any trends and correlations witnessed.</p>
-        </article>
-      </div>
+  <!-- Start of landing page content -->
+  <div class="content">
+
+    <section class="container-fluid">
+
+        <div class="row">
+          <div class="col-8">
+              <style>.col-8{padding-left: 3cm;
+                              padding-right: 1cm;
+                            top: 2cm}</style>
+             <div class="box">
+                <div class="page-header">
+                  <h1 class="description-header">Summary: Latitude vs. X</h1>
+                  <hr></hr>
+                </div>
+                <div class="box">
+                  <img src="Resources/Assets/Visualizations/temp.html" alt="Latitude vs. Max Temperature Analysis Graph" id="description-image" />
+                  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+                      accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500
+                      cities.</p>
+                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+                      Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+                      source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+                      any trends and correlations witnessed.</p>
+                 </div>
+                </div>
+            </div>
+
       <!-- Start of Visualizations Right sidebar -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xm-12">
         <section id="imageNav-area">
@@ -131,7 +142,7 @@
    <!-- jQuery library -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-   <!-- Popper JS -->
+<!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
