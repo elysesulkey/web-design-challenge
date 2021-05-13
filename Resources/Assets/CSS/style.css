@@ -80,7 +80,7 @@
   #logo {
     color: white;
     background-color: teal;
-    margin-left: 20px;
+    margin-right: 10px;
   }
   .dropdown {
     font-size: 25px;
@@ -92,7 +92,7 @@
   
   .navigation .navbar-brand{
       color: white; 
-      margin-left: 50px; 
+      margin-right: 50px; 
       padding: inherit; 
       font-weight: bold; 
       background-color:teal;
