@@ -63,33 +63,23 @@
 
 
   <!-- Start of landing page content -->
-  <div class="content">
-
-    <section class="container-fluid">
-
-        <div class="row">
-          <div class="col-8">
-              <style>.col-8{padding-left: 3cm;
-                              padding-right: 1cm;
-                            top: 2cm}</style>
-             <div class="box">
-                <div class="page-header">
-                  <h1 class="description-header">Summary: Latitude vs. X</h1>
-                  <hr></hr>
-                </div>
-                <div class="box">
-                  <img src="Resources/Assets/Images/Fig1.png" alt="Latitude vs. Max Temperature Analysis Graph" id="description-image" />
-                  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-                      accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500
-                      cities.</p>
-                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                      Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-                      source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-                      any trends and correlations witnessed.</p>
-                 </div>
-                </div>
-            </div>
-
+   <!-- Start of container -->
+   <div class="container">
+    <section class="row">
+      <div class="col-lg-8 col-md-8 col-sm-6 col-xm-12">
+        <article class="description-content">
+          <h1 class="description-header">Summary: Latitude vs. X</h1>
+          <hr class="description-hr" />
+          <img src="Assets/Images/Fig1.png" alt="Latitude vs. Max Temperature Graph" id="description-image" />
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
+            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500
+            cities.</p>
+          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+            any trends and correlations witnessed.</p>
+        </article>
+      </div>
       <!-- Start of Visualizations Right sidebar -->
       <div class="col-lg-4 col-md-4 col-sm-6 col-xm-12">
         <section id="imageNav-area">
@@ -99,24 +89,24 @@
             <div id="images">
               <div class="row" id="outer">
                 <div>
-                  <h3>vs. Max Temperature</h3>
-                  <a href="Resources/Assets/Visualizations/temp.html"><img src="Resources/Assets/Images/Fig1.png"
+                  <h3>Latitude vs. Max Temperature</h3>
+                  <a href="Visualizations/temp.html"><img src="Assets/Images/Fig1.png"
                       alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
                 </div>
                 <div>
-                    <h3>vs. Humidity</h3>
-                  <a href="Resources/Assets/Visualizations/humidity.html"><img src="Resources/Assets/Images/Fig2.png" 
+                    <h3>Latitude vs. Humidity</h3>
+                  <a href="Visualizations/humidity.html"><img src="Assets/Images/Fig2.png" 
                     alt="Latitude vs. Humidity" class="imageNav-photo"></a>
                 </div>
 
                 <div>
-                    <h3>vs. Cloudiness</h3>
-                  <a href="Resources/Assets/Visualizations/cloudiness.html"><img src="Resources/Assets/Images/Fig3.png"
+                    <h3>Latitude vs. Cloudiness</h3>
+                  <a href="Visualizations/cloudiness.html"><img src="Assets/Images/Fig3.png"
                       alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
                 </div>
                 <div>
-                    <h3>vs. Wind Speed</h3>
-                  <a href="Resources/Assets/Visualizations/wind.html"><img src="Resources/Assets/Images/Fig4.png" 
+                    <h3>Latitude vs. Wind Temperature</h3>
+                  <a href="Visualizations/wind.html"><img src="Assets/Images/Fig4.png" 
                     alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
                 </div>
               </div>
